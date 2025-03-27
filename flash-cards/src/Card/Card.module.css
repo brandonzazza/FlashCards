@@ -1,0 +1,33 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(34, 81, 109);
+    align-items: center;
+}
+
+.appTitle{
+    color: aliceblue;
+}
+
+.mainContainer{
+    align-items: center;
+    text-align: center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    height:50vh;
+}
+
+.card{
+    background-color: rgb(0, 181, 181);
+    border: 2px solid black;
+    border-radius: 5px;
+    height:35vh;
+    width:40vw;
+}
